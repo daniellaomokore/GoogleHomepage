@@ -1,0 +1,36 @@
+
+
+.flexContainer {
+    
+    
+}
+
+.Top {
+    flex-direction: row;
+
+}
+
+.Left {
+
+
+}
+
+.Right {
+
+}
+
+
+
+.Main {
+    flex-direction: column;
+
+}
+
+.Bottom {
+    align-items: baseline;
+}
+
+.Footer {
+    flex-direction: column;
+}
+
