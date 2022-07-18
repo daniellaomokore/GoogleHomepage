@@ -1,36 +1,12 @@
-
-
-.flexContainer {
+.topContainer {
+    display: flex;
+    background-color: aquamarine;
     
-    
 }
 
-.Top {
-    flex-direction: row;
+.topContainer > left {
+    justify-content: flex-start;
+    background-color: brown;
 
 }
-
-.Left {
-
-
-}
-
-.Right {
-
-}
-
-
-
-.Main {
-    flex-direction: column;
-
-}
-
-.Bottom {
-    align-items: baseline;
-}
-
-.Footer {
-    flex-direction: column;
-}
-
+ 
