@@ -1,13 +1,4 @@
-.topContainer {
-    display: flex;
-    background-color: aquamarine;
-    
-}
 
-.topContainer > left {
-    justify-content: flex-start;
-    background-color: brown;
-}
  
 body{
     text-align: center;
