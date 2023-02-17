@@ -8,12 +8,37 @@ body{
     height: 100%;
 }
 
+form .inputField{
+    display: block;
+    justify-content: center;
+}
 
-navbar a {
+navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+navbar a{
     text-decoration: none;
     color: rgb(20, 20, 20);
 }
 
+.leftnav{
+    order: 1; /* Set the order of the left nav to 1 */
+    margin-left: 30px; /* Add some margin to the right of the left nav */
+    justify-content: space-between;
+
+}
+
+.rightnav{
+    order: 2; /* Set the order of the right nav to 2 */
+    margin-right: 30px; /* Add some margin to the right of the left nav */
+    justify-content: space-between;
+
+}
 footer {
     background-color: rgb(241, 237, 237);
     color: rgb(110, 108, 108);
@@ -25,10 +50,16 @@ footer a {
     color: rgb(110, 108, 108);
 }
 
+.leftfooter, .centerfooter, .rightfooter {
+    display: inline-flex;
+    padding: 10px 0px;
+
+}
+
 .top-footer{
     display: flex;
     align-items:start;
-    padding: 15px 30px;
+    padding: 2px 30px;
     border-bottom: 1px solid #3c4043;
     font-size: 15px;
 
@@ -40,27 +71,24 @@ footer a {
 
 .leftfooter{
     align-items:start;
-    min-width: 33%;
+    min-width: 30%;
     order: 1;
+    justify-content: space-evenly;
 }
 
 .centerfooter{
     align-items:center;
-    min-width: 33%;
+    min-width: 30%;
     order: 2;
-}
+    justify-content: space-evenly;
 
+}
 
 .rightfooter{
-    min-width: 33%;
+    min-width: 30%;
     order: 3;
     align-items:end;
-
-}
-
-.leftfooter, .centerfooter, .rightfooter {
-    display: inline-block;
-    padding: 20px 0px;
+    justify-content: space-evenly;
 
 }
 
@@ -72,6 +100,9 @@ footer a {
 .rightfooter a:hover{
     text-decoration: underline;
 }
+
+
+
 
 button{
     border: none;
