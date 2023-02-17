@@ -4,11 +4,19 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(20, 20, 20);
+    margin: 0;
+    height: 100%;
 }
 
-.navbar a {
+
+navbar a {
     text-decoration: none;
     color: rgb(20, 20, 20);
+}
+
+footer {
+    background-color: rgb(241, 237, 237);
+    color: rgb(110, 108, 108);
 
 }
 
@@ -17,13 +25,56 @@ footer a {
     color: rgb(110, 108, 108);
 }
 
-footer{
-    background-color: rgb(241, 237, 237);
-    color: rgb(110, 108, 108);
-    text-decoration: none;
+.top-footer{
+    display: flex;
+    align-items:start;
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+
+}
+
+.bottom-footer{
+    flex-wrap: wrap;
+}
+
+.leftfooter{
+    align-items:start;
+    min-width: 33%;
+    order: 1;
+}
+
+.centerfooter{
+    align-items:center;
+    min-width: 33%;
+    order: 2;
+}
+
+
+.rightfooter{
+    min-width: 33%;
+    order: 3;
+    align-items:end;
+
+}
+
+.leftfooter, .centerfooter, .rightfooter {
+    display: inline-block;
+    padding: 20px 0px;
+
+}
+
+
+.leftfooter a:hover{
+    text-decoration: underline;
+}
+
+.rightfooter a:hover{
+    text-decoration: underline;
 }
 
 button{
     border: none;
     border-radius: 0;
 }
+
