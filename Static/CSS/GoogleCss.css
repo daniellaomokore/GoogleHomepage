@@ -5,13 +5,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(20, 20, 20);
     margin: 0;
-    height: 100%;
 }
 
-form .inputField{
-    display: block;
-    justify-content: center;
-}
+
 
 navbar{
     display: flex;
@@ -26,19 +22,20 @@ navbar a{
     color: rgb(20, 20, 20);
 }
 
-.leftnav{
+.leftnav {
     order: 1; /* Set the order of the left nav to 1 */
     margin-left: 30px; /* Add some margin to the right of the left nav */
     justify-content: space-between;
 
 }
 
-.rightnav{
+.rightnav {
     order: 2; /* Set the order of the right nav to 2 */
     margin-right: 30px; /* Add some margin to the right of the left nav */
     justify-content: space-between;
 
 }
+
 footer {
     background-color: rgb(241, 237, 237);
     color: rgb(110, 108, 108);
