@@ -106,3 +106,7 @@ button{
     border-radius: 0;
 }
 
+
+.inputField{
+    border-radius:25px;
+}
