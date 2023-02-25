@@ -99,14 +99,34 @@ footer a {
 }
 
 
+form{
+    padding-bottom: 137px;
+
+}
 
 
 button{
+    border-radius: 5px;
     border: none;
-    border-radius: 0;
+    padding: 10px;
+    margin: 11px 4px;
 }
 
 
 .inputField{
-    border-radius:25px;
+    border-radius: 40px;
+    width: 600px;
+    height: 40px;
+    font-size: large;
+    border-width: thin;
+    border-color: black;
+}
+
+.inputField:focus{
+  outline: none;
+}
+
+.googlelogo{
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
