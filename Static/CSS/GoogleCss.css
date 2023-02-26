@@ -5,6 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(20, 20, 20);
     margin: 0;
+    width: 100%;
 }
 
 
@@ -22,24 +23,20 @@ navbar a{
     color: rgb(20, 20, 20);
 }
 
-.leftnav {
+.leftnav a{
     order: 1; /* Set the order of the left nav to 1 */
-    margin-left: 30px; /* Add some margin to the right of the left nav */
-    justify-content: space-between;
-
+    padding-left: 30px;
 }
 
-.rightnav {
+.rightnav a{
     order: 2; /* Set the order of the right nav to 2 */
-    margin-right: 30px; /* Add some margin to the right of the left nav */
-    justify-content: space-between;
-
+    padding-right: 30px;
 }
 
 footer {
     background-color: rgb(241, 237, 237);
     color: rgb(110, 108, 108);
-
+    width: 100%;
 }
 
 footer a {
@@ -69,14 +66,14 @@ footer a {
 .leftfooter{
     align-items:start;
     min-width: 30%;
-    order: 1;
+    order: 2;
     justify-content: space-evenly;
 }
 
 .centerfooter{
     align-items:center;
     min-width: 30%;
-    order: 2;
+    order: 1;
     justify-content: space-evenly;
 
 }
@@ -112,6 +109,10 @@ button{
     margin: 11px 4px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 
 .inputField{
     border-radius: 40px;
@@ -130,3 +131,21 @@ button{
     padding-top: 70px;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 767px) {
+    /* Mobile devices (up to 767px) */
+     
+    .inputField{
+        width: 100%;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tablets (768px to 1023px) */
+  
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* Desktops (1024px and up) */
+  }
